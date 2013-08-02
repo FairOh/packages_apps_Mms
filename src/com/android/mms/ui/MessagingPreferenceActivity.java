@@ -153,8 +153,7 @@ public class MessagingPreferenceActivity extends PreferenceActivity
         mMmsReadReportPref = findPreference("pref_key_mms_read_reports");
         mMmsLimitPref = findPreference("pref_key_mms_delete_limit");
         mClearHistoryPref = findPreference("pref_key_mms_clear_history");
-        mEnableNotificationsPref = (CheckBoxPreference) findPreference(NOTIFICATION_ENABLED);
-        mVibrateWhenPref = (ListPreference) findPreference(NOTIFICATION_VIBRATE_WHEN); 
+        mEnableNotificationsPref = (CheckBoxPreference) findPreference(NOTIFICATION_ENABLED); 
         mQuickReplyCat = (PreferenceCategory) findPreference("category_quick_reply");
         mQrCallBack = (CheckBoxPreference) findPreference(DISPLAY_QR_CALLBUTTON);
         mQrSmsReply = (CheckBoxPreference) findPreference(DISPLAY_QR_SMS_REPLY);
